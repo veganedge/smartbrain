@@ -1,0 +1,8 @@
+.Tilt {
+    background: linear-gradient(89deg, rgba(50,155,158,1) 0%, rgba(41,62,105,1) 100%);
+}
+
+.Tilt-inner {
+    transform: translateZ(40px);
+    /*not working, want text/logo to stand out from background*/
+}
