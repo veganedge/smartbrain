@@ -14,7 +14,7 @@ class SignIn extends React.Component {
     }
 
     onPasswordChange = (event) => {
-        this.setState({signinPassword: event.target.vallue})
+        this.setState({signInPassword: event.target.value})
     }
 
     onSubmitSignIn = () => {
@@ -31,9 +31,8 @@ class SignIn extends React.Component {
                 if (user.id) {
                     this.props.loadUser(user);
                     this.props.onRouteChange('signedin');
-                }
+                }        
             })
-        
     }
 
     

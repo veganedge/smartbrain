@@ -4,7 +4,7 @@ const Entry = ({ name, entries }) => {
     return (
         <div>
             <div className='white f3' style={{fontWeight:'bold'}}>
-                {'${name}, your current entry count is...'}
+                {name}, your current entry count is...
             </div>
             <div className='white f1' style={{fontWeight:'bold'}}>
                 {entries}
