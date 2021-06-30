@@ -1,11 +1,12 @@
 import React from 'react';
 import'./ImageLinkForm.css';
 
+//code a keypress event for enter after inputting URL
 const ImageLinkForm = ({ onInputChange, onPictureSubmit }) => {
     return (
         <div>
             <p className='f3 black' style={{fontWeight:'bold'}}>
-                {'Magic Brain will detect faces in your pictures. Give it a try.'}
+                {'Smart Brain will detect faces in your pictures. Give it a try.'}
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5' style={{background: 'linear-gradient(89deg, rgba(50,155,158,1) 0%, rgba(41,62,105,1) 100%)'}}>

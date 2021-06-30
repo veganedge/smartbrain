@@ -32,10 +32,11 @@ class SignIn extends React.Component {
                     this.props.loadUser(user);
                     this.props.onRouteChange('signedin');
                 }        
+                // code an else to display a popup error message for user
             })
     }
 
-    
+//code a keypress event listener for presing enter after typing in info
     render () {
         const { onRouteChange } = this.props;
         return (
